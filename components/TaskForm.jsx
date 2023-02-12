@@ -6,6 +6,7 @@ const TaskForm = ({ onAdd }) => {
   const handleSubmit = (event) => {
     event.preventDefault();
     onAdd(task);
+    setTask('');
   };
   return (
     <form className={styles.form} onSubmit={handleSubmit}>
