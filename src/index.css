@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #17181f;
+  color: #aaa;
+}
+
+h1,
+h2 {
+  text-align: center;
+}

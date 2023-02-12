@@ -1,0 +1,12 @@
+.svgChecked {
+  fill: #61dafb;
+}
+
+.svgUnchecked {
+  fill: #61dafb;
+}
+
+.container {
+  height: auto;
+  width: 25px;
+}

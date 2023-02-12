@@ -1,0 +1,25 @@
+.form {
+  display: flex;
+  min-width: 300px;
+  border: 3px solid #30313d;
+  border-radius: 10px;
+}
+
+.btn {
+  width: 30px;
+  height: 30px;
+  background: #61dafb;
+  border: none;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.input {
+  width: 100%;
+  padding: 0 8px;
+  background: none;
+  border: 0;
+  color: #fff;
+}
