@@ -55,7 +55,7 @@ function App() {
       return 'Intenta realizar una! 🙏';
     }
     if (percentage === 100) {
-      return 'Muy buen trabajo! 🏝';
+      return 'Muy buen trabajo! 🎉';
     }
     return 'Sigue asi 💪🏻';
   };

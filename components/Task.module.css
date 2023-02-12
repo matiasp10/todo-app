@@ -11,8 +11,9 @@
 }
 .wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  width: 90%;
 }
 .container {
   display: flex;
@@ -24,6 +25,7 @@
 }
 .taskName {
   margin-left: 10px;
+  overflow-x: auto;
 }
 
 div.task.notDone {
@@ -39,6 +41,7 @@ div.task.notDone {
   width: 15px;
   height: auto;
   fill: rgba(255, 255, 255, 0.5);
+  margin: 0 5px;
 }
 
 div.task span {
@@ -66,4 +69,19 @@ div.task input {
   color: #fff;
   border: 2px solid rgba(255, 255, 255, 0.5);
   border-radius: 5px;
+  width: 100%;
+}
+
+.edit {
+  width: 75%;
+}
+
+@media (min-width: 768px) {
+  .task {
+    max-width: 600px;
+    padding: 10px 5px 10px 5px;
+  }
+  .trash svg {
+    width: 20px;
+  }
 }

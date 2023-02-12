@@ -20,8 +20,12 @@ const Task = ({ name, done, onToggle, onTrash, onRename }) => {
         )}
         {editMode && (
           <form
+            className={style.edit}
             onSubmit={(event) => {
               event.preventDefault();
+              setEditMode(false);
+            }}
+            onBlur={() => {
               setEditMode(false);
             }}
           >
